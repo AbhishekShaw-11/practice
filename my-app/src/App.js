@@ -1,12 +1,15 @@
 
+
 import './App.css';
-import Movie from './Page/Movie';
+import Posts from './Component/Posts';
+
 
 function App() {
+ 
   return (
-    <div className="App">
-    <Movie/>
-    </div>
+    <section className="main-section">
+    <Posts />
+  </section>
   );
 }
 
